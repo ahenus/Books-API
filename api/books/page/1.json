@@ -1,0 +1,8 @@
+{
+  "info": { "count": 10, "pages": 4, "next": 2, "prev": null },
+  "results": [
+    { "id": 1, "title": "Great Expectations", "author": "Charles Dickens", "year": 1861, "cover": "./covers/cover_GreatExpectations.png" },
+    { "id": 2, "title": "Jane Eyre", "author": "Charlotte Brontë", "year": 1847, "cover": "./covers/cover_JaneEyre.png" },
+    { "id": 3, "title": "Wuthering Heights", "author": "Emily Brontë", "year": 1847, "cover": "./covers/cover_WutheringHeights.png" }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "info": { "count": 10, "pages": 4, "next": 4, "prev": 2 },
+  "results": [
+    { "id": 7, "title": "Dracula", "author": "Bram Stoker", "year": 1897, "cover": "./covers/cover_Dracula.png" },
+    { "id": 8, "title": "The Woman in White", "author": "Wilkie Collins", "year": 1859, "cover": "./covers/cover_TheWomanInWhite.png" },
+    { "id": 9, "title": "Alice's Adventures in Wonderland", "author": "Lewis Carroll", "year": 1865, "cover": "./covers/cover_AlicesAdventuresInWonderland.png" }
+  ]
+}

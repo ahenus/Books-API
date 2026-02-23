@@ -1,0 +1,6 @@
+{
+  "info": { "count": 10, "pages": 4, "next": null, "prev": 3 },
+  "results": [
+    { "id": 10, "title": "North and South", "author": "Elizabeth Gaskell", "year": 1855, "cover": "./covers/cover_NorthAndSouth.png" }
+  ]
+}

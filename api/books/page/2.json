@@ -1,0 +1,8 @@
+{
+  "info": { "count": 10, "pages": 4, "next": 3, "prev": 1 },
+  "results": [
+    { "id": 4, "title": "Middlemarch", "author": "George Eliot", "year": 1871, "cover": "./covers/cover_Middlemarch.png" },
+    { "id": 5, "title": "Tess of the d'Urbervilles", "author": "Thomas Hardy", "year": 1891, "cover": "./covers/cover_TessOfDUrbervilles.png" },
+    { "id": 6, "title": "The Picture of Dorian Gray", "author": "Oscar Wilde", "year": 1890, "cover": "./covers/cover_ThePictureOfDorianGray.png" }
+  ]
+}

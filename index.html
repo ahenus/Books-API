@@ -3,60 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Books API</title>
-  <style>
-    body {
-      font-family: system-ui;
-      background: #0f1117;
-      color: white;
-      margin: 0;
-      padding: 40px;
-    }
-
-    h1 {
-      margin-bottom: 30px;
-    }
-
-    .card {
-      display: flex;
-      gap: 16px;
-      background: #1c1f26;
-      padding: 15px;
-      border-radius: 12px;
-      margin-bottom: 16px;
-      align-items: center;
-    }
-
-    img {
-      width: 90px;
-      height: 130px;
-      object-fit: cover;
-      border-radius: 8px;
-      background: #2a2f3a;
-    }
-
-    .title {
-      font-weight: bold;
-      font-size: 18px;
-      margin-bottom: 6px;
-    }
-
-    .author {
-      opacity: 0.8;
-    }
-  </style>
+  <title>Digitális Könyvtár</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Great+Vibes&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="home">
 
-  <h1>Books API</h1>
+  <header class="topbar">
 
-  <div class="card">
-    <img src="./covers/cover_01.png" alt="Book cover" />
-    <div>
-      <div class="title">Example Book</div>
-      <div class="author">Author Name (2024)</div>
-    </div>
+    <nav class="menu">
+      <a class="menu-link" href="./about.html">About</a>
+      <a class="menu-link primary" href="./books.html?page=1">Könyvek</a>
+      <!-- Ha tényleg közvetlenül a JSON-ra akarsz linkelni, ezt használd:
+      <a class="menu-link primary" href="./api/books/page/1.json">Könyvek</a>
+      -->
+    </nav>
+  </header>
+
+<main class="hero">
+  <div class="hero-text">
+    <h1>Üdvözlet a digitális könyvtárunkban!</h1>
+    <p>Itt viktoriánus klasszikusokat ismerhetsz meg.</p>
   </div>
+</main>
 
 </body>
 </html>
